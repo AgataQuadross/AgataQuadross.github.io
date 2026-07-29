@@ -1,0 +1,47 @@
+:root {
+    --morrom: #885972;
+    --rosa: #d79eb9;
+    --roxo-claro: #9f83ae;
+    --roxo: #7c6698;
+    --azul: #8fcce0;
+    --transparente: #ffffff00;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: var(--morrom);
+}
+
+body {
+    background-color: var(--roxo-claro);
+}
+
+main {
+    background-color: var(--transparente);
+    width: 80%;
+    padding: 20px;
+    border: 3px dashed var(--azul);
+    border-radius: 30px;
+}
+
+/* formatação de local */
+.centro {}
+
+.canto {}
+
+/* formatação de aparencia */
+.navegador {}
+
+.quadro {}
+
+.rodape {
+    background-color: var(--roxo);
+}
+
+.sociais {}
+
+.direito {}
+
+.suporte {}
